@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@200;300;500;600&family=Ubuntu:ital,wght@0,300;0,400;1,400&display=swap');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+.main{
+    background-color: #434242;
+    text-align: center;
+}
+.main .max-width{
+	max-width: 1300vh;
+	padding: 0px 80px;
+    height:50vh;
+    margin:auto;
+}
+.main .max-width .box{
+    text-align: center;
+    margin: 0 30%;
+}
+.main .max-width .box h2{
+    color: white;
+    font-size: 70px;
+}
+.main .max-width .box p{
+    margin:4% 0;
+    color: white;
+    font-size: 20px;
+}

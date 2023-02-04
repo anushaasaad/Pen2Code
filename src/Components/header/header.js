@@ -1,6 +1,7 @@
 import React from "react";
 import '../header/style.css';
 import Logo from '../header/logo.PNG';
+import Main from '../Main/main.js';
 function Header() {
   return (
     <div className="App">
@@ -21,6 +22,7 @@ function Header() {
 				</i>
 			</div>
 		</div>
+		<Main />
 	</nav>
      </div>
   );

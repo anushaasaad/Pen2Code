@@ -6,9 +6,6 @@
 	box-sizing: border-box;
 	text-decoration: none;
 }
-.App{
-    
-}
 .max-width{
 	max-width: 1300vh;
 	padding: 0px 50px;
@@ -17,7 +14,7 @@
 .navbar{
     background-color: white;
     color : black;
-    height: 11%;
+    height: 13%;
     vertical-align: middle;
 	position: fixed;
 	width: 100%;
