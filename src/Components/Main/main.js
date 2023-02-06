@@ -1,17 +1,24 @@
 import React from "react";
 import '../Main/style.css';
-import Çontent from '../main/content.js';
+import Content from "./content.js";
+
 function Main() {
   return (
+    <div>
     <div className="main">
         <div className="max-width">
             <div className="box">
                 <h2>Pen2Code</h2>
                 <p>An AI-based web application to write boilerplate code. Converts hand-drawn mockup images into HTML webpages.</p>
             </div>
+            <div className="button">
+              <p>Try out Pen2Code>> </p>
+              </div>
+            
         </div>
-
+       
      </div>
+       </div>
   );
 }
 
