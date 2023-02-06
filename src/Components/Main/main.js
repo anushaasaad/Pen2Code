@@ -1,5 +1,6 @@
 import React from "react";
 import '../Main/style.css';
+import Çontent from '../main/content.js';
 function Main() {
   return (
     <div className="main">
