@@ -12,8 +12,10 @@ function Content() {
             <div className="text">
               <p>Pen2code will take hand-drawn mockup images as input and produce an HTML file as output containing the UI code. <br/>
               Bridge the gap that exists otherwise between the stakeholder’s vision and the coder/developer</p>
-             
             </div>
+            <div className="Btn">
+              <span>Convert yours>></span>
+              </div>
           </div>
         </div>
      </div>
