@@ -14,7 +14,7 @@ function Content() {
               Bridge the gap that exists otherwise between the stakeholder’s vision and the coder/developer</p>
             </div>
             <div className="Btn">
-              <span>Convert yours>></span>
+              <span>Convert yours</span>
               </div>
           </div>
         </div>

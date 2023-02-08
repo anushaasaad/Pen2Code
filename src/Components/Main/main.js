@@ -1,7 +1,9 @@
 import React from "react";
 import '../Main/style.css';
 import Content from "./content.js";
+import Tech from './techstack.js'
 import Header from '../header/header.js';
+import Footer from '../header/footer.js'
 function Main() {
   return (
     <div class="hero">
@@ -18,6 +20,8 @@ function Main() {
             
         </div>
        <Content />
+       <Tech />
+       <Footer />
      </div>
      
      </div>
