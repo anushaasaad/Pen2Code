@@ -10,9 +10,13 @@ function Upload() {
         <Header />
         <div className="sec">
             <div className="max-width">
-                <ImageSlider slides={SliderData} />
-                 </div>
-            </div>
+              <div className="text">
+                <h1>Pen2Code</h1>
+                <p>Transform any hand-drawn design into Html Code.</p>
+                </div>
+                  <ImageSlider slides={SliderData} />
+                  </div>
+              </div>
         </div>
   );
 }

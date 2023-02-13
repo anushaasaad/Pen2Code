@@ -3,8 +3,10 @@ import '../Main/style.css';
 import Content from "./content.js";
 import Tech from './techstack.js'
 import Header from '../header/header.js';
-import Footer from '../header/footer.js'
+import Footer from '../header/footer.js';
+import { useNavigate } from "react-router";
 function Main() {
+
   return (
     <div class="hero">
       <Header />
@@ -15,7 +17,7 @@ function Main() {
                 <p>An AI-based web application to write boilerplate code. Converts hand-drawn mockup images into HTML webpages.</p>
             </div>
             <div className="button">
-              <p>Try out Pen2Code </p>
+              <p><a href="http://localhost:3000/upload">Try out Pen2Code</a> </p>
               </div>
             
         </div>

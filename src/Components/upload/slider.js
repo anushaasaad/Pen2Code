@@ -35,11 +35,15 @@ const ImageSlider = ({ slides }) => {
               <img src={slide.image} alt='travel image' className='image' />
             )}
           </div>
+          
         );
       })}
       
     </section>
-      <button>hello</button>
+    <div className="btns">
+      <button className="sample">Use this sample</button>
+      <button className="U_image">Upload image</button>
+      </div>
     </div>
     
   );
