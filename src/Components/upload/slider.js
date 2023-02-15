@@ -4,8 +4,15 @@ import { useState } from 'react';
 import { SliderData } from './sliderdata.js';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa';
 
+
 const ImageSlider = ({ slides }) => {
   const [current, setCurrent] = useState(0);
+  const [file,setFile]=useState('')
+    
+  const handleChange=(e)=>{
+      const data=e.target.files[0]
+       setFile(data)
+  }
   const length = slides.length;
 
   const nextSlide = () => {
@@ -19,6 +26,8 @@ const ImageSlider = ({ slides }) => {
   if (!Array.isArray(slides) || slides.length <= 0) {
     return null;
   }
+  
+  
 
   return (
     <div>
@@ -42,7 +51,16 @@ const ImageSlider = ({ slides }) => {
     </section>
     <div className="btns">
       <button className="sample">Use this sample</button>
-      <button className="U_image">Upload image</button>
+      <button className="U_image">
+                <input type="file" onChange={handleChange}/>   
+                {file &&
+                    <div className="file_image"> 
+                        <span>{file.name}</span>
+                        <img src={URL.createObjectURL(file)}/>
+        </div>  
+        }         
+       </button>
+              
       </div>
     </div>
     
